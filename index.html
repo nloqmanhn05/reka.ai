@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>reka.ai Customize Your Agents for Your Business</title>
+  <meta name="description"
+    content="reka.ai builds custom autonomous AI agents for Malaysian SMEs. Model-agnostic infrastructure with Claude, Gemini, and GPT." />
+  <meta property="og:title" content="reka.ai Customize Your Agents for Your Business" />
+  <meta property="og:description"
+    content="Custom AI agents built around how your business actually works. Zero vendor lock-in." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cg transform='rotate(-30 12 12)'%3E%3Ccircle cx='7.3' cy='3.2' r='1.45'/%3E%3Crect x='5.5' y='4.7' width='3.6' height='14.6' rx='1.8'/%3E%3Crect x='14.9' y='4.7' width='3.6' height='14.6' rx='1.8'/%3E%3Ccircle cx='16.7' cy='20.8' r='1.45'/%3E%3C/g%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Instrument+Serif:ital@1&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body style="background:#000;color:#fff">
+  <div class="grain"></div>
+
+  <div class="hero-photo">
+    <video autoplay muted loop playsinline preload="auto">
+      <source src="hero-compat.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="page">
+    <div class="menu-backdrop"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <a href="#top" class="logo appear appear--scale" style="--d: 0.08s;" aria-label="reka.ai">
+        <span>reka<span class="logo-suffix">.ai</span></span>
+      </a>
+
+      <nav id="site-nav" aria-label="Primary">
+        <a href="#about" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
+        <a href="#experience" class="nav-link appear appear--soft" style="--d: 0.24s;">Experience</a>
+        <a href="#services" class="nav-link appear appear--scale" style="--d: 0.32s;">Services</a>
+        <a href="#contact" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
+      </nav>
+
+      <button type="button" class="burger appear appear--scale" style="--d: 0.34s;" aria-controls="site-nav"
+        aria-expanded="false" aria-label="Open menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- Section 1: Hero -->
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <h1 class="hero-h1">
+            <span class="headline-line"><span class="appear appear--mask" style="--d: 0.42s;"> <em>AI agents</em> around
+                how</span></span>
+            <span class="headline-line"><span class="appear appear--mask" style="--d: 0.62s;">your business <em>actually
+                  works</em>.</span></span>
+          </h1>
+
+          <p class="lede appear appear--soft" style="--d: 0.82s;">
+            We design, build, and manage custom AI agents for Malaysian SMEs. We use the best of Claude,
+            Gemini, and
+            GPT, so you get the right engine for each task and never get locked into one vendor.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-ghost hero-btn appear appear--btn" style="--d: 0.96s;">
+              <span>Explore Services</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat appear appear--stat" style="--d: 1.12s;">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="pillGrad1" x1="3" y1="2" x2="14" y2="22" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.38" />
+                  <stop offset="100%" stop-color="#3a3a3a" stop-opacity="0.62" />
+                </linearGradient>
+                <linearGradient id="pillGrad2" x1="3" y1="2" x2="14" y2="22" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#3a3a3a" stop-opacity="0.38" />
+                  <stop offset="100%" stop-color="#ffffff" stop-opacity="0.62" />
+                </linearGradient>
+              </defs>
+              <rect x="3.4" y="2.6" width="7.2" height="18.8" rx="3.6" fill="url(#pillGrad1)" />
+              <rect x="13.4" y="2.6" width="7.2" height="18.8" rx="3.6" fill="url(#pillGrad2)" />
+              <rect x="9.2" y="10.9" width="5.6" height="2.2" rx="1.1" fill="#4a4a4a" />
+            </svg>
+            <span>Multi-Model AI Orchestration</span>
+          </div>
+
+          <div class="stat appear appear--stat" style="--d: 1.28s;">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="2.4" y="2.4" width="19.2" height="19.2" rx="6.2" fill="#ffffff" />
+              <path d="M12 7.1v7.4" stroke="#111111" stroke-width="1.85" stroke-linecap="round" />
+              <path d="M8.15 12.35L12 16.2l3.85-3.85" stroke="#111111" stroke-width="1.85" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Measurable Reduction in Manual Ops</span>
+          </div>
+
+          <div class="stat appear appear--stat" style="--d: 1.44s;">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <span>Engineered for Local Malaysian Operators</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: About / Team (§2 & §3) -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Students-turned-builders applying AI to <em>real business problems</em>.</h2>
+            <p class="section-lede">Founded by Computer Science (AI) TSI2 students with deep hands-on experience in fintech,
+              UX design, and community scaling.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="card team-card reveal">
+              <div class="team-photo-frame">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="team-caption">
+                Our team: students-turned-builders applying AI to real business problems.
+              </div>
+            </div>
+
+            <div class="about-content reveal">
+              <h3>Who We Are</h3>
+              <p>
+                <strong>reka.ai</strong> is a Malaysia-based AI agent studio founded by Computer Science (AI)
+                undergraduates with practical engineering execution across fintech platforms, high-volume payment
+                processing, and community technology initiatives.
+              </p>
+              <p>
+                We reject generic conversational chatbots. Instead, we architect autonomous, narrow-scope AI agents that
+                integrate directly into your daily operational tools (WhatsApp, Excel, Google Sheets, CRMs, and internal
+                ERPs) to systematically eliminate repetitive administrative overhead.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Engineering Projects -->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Battle-tested experience,<br /><em>proven outcomes</em>.</h2>
+            <p class="section-lede">Real-world systems engineered across financial technology, operations, and community
+              scale.</p>
+          </div>
+
+          <div class="accordion-body">
+            <div class="projects-grid engineering-grid reveal">
+
+              <a href="https://yesorno1.vercel.app/" class="project-card" target="_blank" rel="noopener noreferrer">
+                <span class="view-repo-btn">View Repo</span>
+                <div class="project-thumb">
+                  <img src="assets/projects/nexuslab.jpg" alt="NexusLab">
+                  <div class="project-overlay">
+                    <div class="project-title">Yes Or No </div>
+                    <div class="project-desc">A confession through coding</div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://nloqmanhn05.github.io/flower/" class="project-card" target="_blank"
+                rel="noopener noreferrer">
+                <span class="view-repo-btn">View Repo</span>
+                <div class="project-thumb">
+                  <img src="assets/projects/nudge.jpg" alt="Nudge">
+                  <div class="project-overlay">
+                    <div class="project-title">Flower</div>
+                    <div class="project-desc">FLower Animation
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://github.com/nloqmanhn05/Fintech" class="project-card" target="_blank"
+                rel="noopener noreferrer">
+                <span class="view-repo-btn">View Repo</span>
+                <div class="project-thumb">
+                  <img src="assets/projects/Fintech.jpg" alt="Fintech">
+                  <div class="project-overlay">
+                    <div class="project-title">Fintech</div>
+                    <div class="project-desc">A smart POS system with integrating AI(Akira) that help you to managed
+                      your business.</div>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Products & Services (§4) -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Autonomous workflows tailored for <em>operational scale</em>.</h2>
+            <p class="section-lede">Turn your most time-consuming manual processes into reliable 24/7 background agents.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <div class="card service-card reveal">
+              <div class="service-card-top">
+                <span class="card-tag">Step 01 • Starting Out</span>
+                <h4>Discovery Audit</h4>
+                <div class="plan-price">RM 1,500 <span>/ one-time</span></div>
+                <p>We map your daily operations to find the highest-ROI bottlenecks before writing a single line of code.</p>
+                <ul class="plan-list">
+                  <li>End-to-end workflow & bottleneck audit</li>
+                  <li>Ranked roadmap of 3–5 tasks to automate</li>
+                  <li>Architecture blueprint & ROI projection</li>
+                  <li>100% fee credited toward any Agent Build</li>
+                </ul>
+              </div>
+              <a href="#contact" class="btn btn-ghost"><span>Book Audit</span></a>
+            </div>
+
+            <div class="card service-card reveal">
+              <div class="service-card-top">
+                <span class="card-tag">Most Popular • SMEs</span>
+                <h4>Core Agent Plan</h4>
+                <div class="plan-price">RM 4,500 <span>+ RM 600/mo</span></div>
+                <p>A production-ready AI agent for Customer Support (24/7 WhatsApp/Web), Invoice & Document Extraction, or Sales Follow-up.</p>
+                <ul class="plan-list">
+                  <li>1 dedicated agent (Support, Invoice, or Sales)</li>
+                  <li>Claude, Gemini & GPT routing per task</li>
+                  <li>WhatsApp, Email, CRM, or Sheet integration</li>
+                  <li>Monthly tuning, monitoring & performance report</li>
+                </ul>
+              </div>
+              <a href="#contact" class="btn btn-solid"><span>Start Core Plan</span></a>
+            </div>
+
+            <div class="card service-card reveal">
+              <div class="service-card-top">
+                <span class="card-tag">Bespoke • Complex Ops</span>
+                <h4>Custom Agent System</h4>
+                <div class="plan-price">From RM 9,500 <span>+ RM 1,200/mo</span></div>
+                <p>Multi-agent workflows custom-engineered around your proprietary rules, internal databases, and APIs.</p>
+                <ul class="plan-list">
+                  <li>Multi-step autonomous agent orchestration</li>
+                  <li>Custom ERP, SQL & internal API tool calls</li>
+                  <li>Private knowledge base with PDPA safeguards</li>
+                  <li>Dedicated SLA, model upgrades & cost tuning</li>
+                </ul>
+              </div>
+              <a href="#contact" class="btn btn-ghost"><span>Request Custom Quote</span></a>
+            </div>
+          </div>
+
+          <div class="guarantee-strip reveal">
+            <div class="guarantee-heading">Every reka.ai agent deployment includes:</div>
+            <div class="guarantee-items">
+              <div class="guarantee-item">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>Human-approval checkpoints</span>
+              </div>
+              <div class="guarantee-item">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>Full audit activity logs</span>
+              </div>
+              <div class="guarantee-item">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>Automated regression test suite</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Contact (§5) -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Let's find your <em>first agent</em>.</h2>
+            <p class="section-lede">Tell us what slows your business down. We'll reply within 1 business day.</p>
+          </div>
+
+          <div class="contact-wrap reveal">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Contact Person *</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Amirul Hakim"
+                    required aria-describedby="contact-name-msg" />
+                  <span id="contact-name-msg" class="field-msg" data-support="Full name for correspondence"
+                    data-error="Please enter your name">Full name for correspondence</span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email Address *</label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="amirul@company.my"
+                    required aria-describedby="contact-email-msg" />
+                  <span id="contact-email-msg" class="field-msg" data-support="We will send our response here"
+                    data-error="Enter a valid email address (e.g. name@company.my)">We will send our response
+                    here</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-company">Company Name <span>(Optional)</span></label>
+                <input type="text" id="contact-company" name="company" class="form-input"
+                  placeholder="e.g. Nexus Logistics Sdn Bhd" aria-describedby="contact-company-msg" />
+                <span id="contact-company-msg" class="field-msg" data-support="Your registered business or brand"
+                  data-error="">Your registered business or brand</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">What task would you like to automate? *</label>
+                <textarea id="contact-message" name="message" class="form-textarea"
+                  placeholder="Describe the manual workflow, repetitive task, or bottlenecks your team faces daily..."
+                  required aria-describedby="contact-message-msg"></textarea>
+                <span id="contact-message-msg" class="field-msg"
+                  data-support="Briefly describe the repetitive task or bottleneck"
+                  data-error="Please describe the workflow you want to automate">Briefly describe the repetitive task or
+                  bottleneck</span>
+              </div>
+
+              <div class="form-submit-row">
+                <span class="form-note">Guaranteed response within 24 hours.</span>
+                <button type="submit" class="btn btn-solid">
+                  <span>Submit</span>
+                </button>
+              </div>
+
+              <div id="form-status" class="form-status" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="#top" class="logo" aria-label="reka.ai">
+            <span>reka<span class="logo-suffix">.ai</span></span>
+          </a>
+          <span class="footer-tagline">Autonomous AI Agent Studio for Malaysian SMEs.</span>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer Navigation">
+          <a href="#about" class="footer-link">About</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 reka.ai. All rights reserved.</div>
+        <div>Built For Malaysia</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
