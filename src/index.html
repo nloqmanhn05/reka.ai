@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Instrument+Serif:ital@1&display=swap"
     rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body style="background:#000;color:#fff">
@@ -29,7 +29,7 @@
 
   <div class="hero-photo">
     <video autoplay muted loop playsinline preload="auto">
-      <source src="hero-compat.mp4" type="video/mp4" />
+      <source src="../assets/background/hero-compat.mp4" type="video/mp4" />
     </video>
   </div>
 
@@ -43,10 +43,10 @@
       </a>
 
       <nav id="site-nav" aria-label="Primary">
-        <a href="#about" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
+        <a href="about.html" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
         <a href="#experience" class="nav-link appear appear--soft" style="--d: 0.24s;">Experience</a>
         <a href="#services" class="nav-link appear appear--scale" style="--d: 0.32s;">Services</a>
-        <a href="#contact" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
+        <a href="contact.html" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
       </nav>
 
       <button type="button" class="burger appear appear--scale" style="--d: 0.34s;" aria-controls="site-nav"
@@ -124,49 +124,6 @@
         </div>
       </section>
 
-      <!-- Section 2: About / Team (§2 & §3) -->
-      <section class="section" id="about">
-        <div class="container">
-          <div class="section-header reveal">
-            <h2 class="section-title">Students-turned-builders applying AI to <em>real business problems</em>.</h2>
-            <p class="section-lede">Founded by Computer Science (AI) TSI2 students with deep hands-on experience in
-              fintech,
-              UX design, and community scaling.</p>
-          </div>
-
-          <div class="about-grid">
-            <div class="card team-card reveal">
-              <div class="team-photo-frame">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
-              </div>
-              <div class="team-caption">
-                Our team: students-turned-builders applying AI to real business problems.
-              </div>
-            </div>
-
-            <div class="about-content reveal">
-              <h3>Who We Are</h3>
-              <p>
-                <strong>reka.ai</strong> is a Malaysia-based AI agent studio founded by Computer Science (AI)
-                301 undergraduates with practical engineering execution across fintech platforms, high-volume payment
-                processing, and community technology initiatives.
-              </p>
-              <p>
-                We reject generic conversational chatbots. Instead, we architect autonomous, narrow-scope AI agents that
-                integrate directly into your daily operational tools (WhatsApp, Excel, Google Sheets, CRMs, and internal
-                ERPs) to systematically eliminate repetitive administrative overhead.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Section 3: Engineering Projects -->
       <section class="section" id="experience">
         <div class="container">
@@ -182,7 +139,7 @@
               <a href="https://yesorno1.vercel.app/" class="project-card" target="_blank" rel="noopener noreferrer">
                 <span class="view-repo-btn">View Link</span>
                 <div class="project-thumb">
-                  <video src="assets/projects/yesorno.mp4" autoplay loop muted playsinline preload="metadata"></video>
+                  <video src="../assets/projects/yesorno.mp4" autoplay loop muted playsinline preload="metadata"></video>
                   <div class="project-overlay">
                     <div class="project-title">Yes Or No </div>
                     <div class="project-desc">A confession through coding</div>
@@ -194,7 +151,7 @@
                 rel="noopener noreferrer">
                 <span class="view-repo-btn">View Link</span>
                 <div class="project-thumb">
-                  <video src="assets/projects/flower.mp4" autoplay loop muted playsinline
+                  <video src="../assets/projects/flower.mp4" autoplay loop muted playsinline
                     preload="metadata"></video>
                   <div class="project-overlay">
                     <div class="project-title">Flower</div>
@@ -208,7 +165,7 @@
               rel="noopener noreferrer">
               <span class="view-repo-btn">View Repo</span>
               <div class="project-thumb">
-                <video src="assets/projects/fintech.mp4" poster="assets/projects/Fintech.jpg" autoplay loop muted
+                <video src="../assets/projects/fintech.mp4" autoplay loop muted
                   playsinline preload="metadata"></video>
                 <div class="project-overlay">
                   <div class="project-title">Fintech</div>
@@ -233,101 +190,99 @@
         </p>
       </div>
 
-      <div class="services-grid">
-        <div class="card service-card reveal">
-          <div class="service-card-top">
-            <h4>Custom Coding</h4>
-            <div class="plan-price">RM 800 <span>/ project</span></div>
-            <p>Fast, on-demand custom scripts, bug fixes, landing pages, or small feature builds tailored to your request.</p>
-            <ul class="plan-list">
-              <li>Custom web pages, scripts &amp; automation helpers</li>
-              <li>API integrations, form handlers &amp; UI fixes</li>
-              <li>Clean, documented source code delivered fast</li>
-              <li>Direct 1-on-1 revision until it works as needed</li>
-            </ul>
-          </div>
-          <a href="#contact" class="btn btn-ghost"><span>Request Custom Build</span></a>
-        </div>
-
-        <div class="card service-card reveal">
-          <div class="service-card-top">
-            <h4>SME Plan Agents</h4>
-            <div class="plan-price">RM 1,500 <span>/ one-time</span></div>
-            <p>A production-ready AI agent for Customer Support (24/7 WhatsApp/Web), Invoice & Document Extraction,
-              or Sales Follow-up.</p>
-            <ul class="plan-list">
-              <li>1 dedicated agent (Support, Invoice, or Sales)</li>
-              <li>Claude, Gemini & GPT routing per task</li>
-              <li>WhatsApp, Email, CRM, or Sheet integration</li>
-              <li>Monthly tuning, monitoring & performance report</li>
-            </ul>
-          </div>
-          <a href="#contact" class="btn btn-ghost"><span>Book Audit</span></a>
-        </div>
-
-        <div class="card service-card reveal">
-          <div class="service-card-top">
-            <h4>Starter AI Agent System</h4>
-            <div class="plan-price">RM 4,500 <span>+ RM 600/mo</span></div>
-            <p>A ready-to-deploy AI solution designed to automate everyday business tasks, answer company-specific
-              questions and improve operational efficiency.</p>
-            <ul class="plan-list">
-              <li>AI trained on selected company documents and SOPs.</li>
-              <li>One personalized AI agent for a specific business function.</li>
-              <li>Automate up to 2 selected business workflows.</li>
-              <li>Connect one platform such as WhatsApp, CRM or internal database.</li>
-            </ul>
-          </div>
-          <a href="#contact" class="btn btn-solid"><span>Start Core Plan</span></a>
-        </div>
-
-        <div class="card service-card reveal">
-          <div class="service-card-top">
-
-            <h4>Custom Agent System</h4>
-            <div class="plan-price">From RM 9,500 <span>+ RM 1,200/mo</span></div>
-            <p>Multi-agent workflows custom-engineered around your proprietary rules, internal databases, and APIs.
-            </p>
-            <ul class="plan-list">
-              <li>Multi-step autonomous agent orchestration</li>
-              <li>Custom ERP, SQL & internal API tool calls</li>
-              <li>Connect company documents, SOPs, databases and internal knowledge for accurate, context-aware
-                responses.</li>
-              <li>Personalized AI Memory</li>
-            </ul>
-          </div>
-          <a href="#contact" class="btn btn-ghost"><span>Request Custom Quote</span></a>
-        </div>
+      <div class="services-table-wrap card reveal">
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>
+                <h4>Custom Coding</h4>
+                <div class="plan-price">RM 800 <span>/ project</span></div>
+              </th>
+              <th>
+                <h4>SME Plan Agents</h4>
+                <div class="plan-price">RM 1,500 <span>/ one-time</span></div>
+              </th>
+              <th>
+                <h4>Starter AI Agent System</h4>
+                <div class="plan-price">RM 4,500 <span>+ RM 600/mo</span></div>
+              </th>
+              <th>
+                <h4>Custom Agent System</h4>
+                <div class="plan-price">From RM 9,500 <span>+ RM 1,200/mo</span></div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-row-desc">
+              <td>
+                <p>Fast, on-demand custom scripts, bug fixes, landing pages, or small feature builds tailored to your request.</p>
+              </td>
+              <td>
+                <p>A production-ready AI agent for Customer Support (24/7 WhatsApp/Web), Invoice &amp; Document Extraction, or Sales Follow-up.</p>
+              </td>
+              <td>
+                <p>A ready-to-deploy AI solution designed to automate everyday business tasks, answer company-specific questions and improve operational efficiency.</p>
+              </td>
+              <td>
+                <p>Multi-agent workflows custom-engineered around your proprietary rules, internal databases, and APIs.</p>
+              </td>
+            </tr>
+            <tr class="table-row-features">
+              <td>
+                <ul class="plan-list">
+                  <li>Custom web pages, scripts &amp; automation helpers</li>
+                  <li>API integrations, form handlers &amp; UI fixes</li>
+                  <li>Clean, documented source code delivered fast</li>
+                  <li>Direct 1-on-1 revision until it works as needed</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="plan-list">
+                  <li>1 dedicated agent (Support, Invoice, or Sales)</li>
+                  <li>Claude, Gemini &amp; GPT routing per task</li>
+                  <li>WhatsApp, Email, CRM, or Sheet integration</li>
+                  <li>Monthly tuning, monitoring &amp; performance report</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="plan-list">
+                  <li>AI trained on selected company documents and SOPs.</li>
+                  <li>One personalized AI agent for a specific business function.</li>
+                  <li>Automate up to 2 selected business workflows.</li>
+                  <li>Connect one platform such as WhatsApp, CRM or internal database.</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="plan-list">
+                  <li>Multi-step autonomous agent orchestration</li>
+                  <li>Custom ERP, SQL &amp; internal API tool calls</li>
+                  <li>Connect company documents, SOPs, databases and internal knowledge for accurate, context-aware responses.</li>
+                  <li>Personalized AI Memory</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="table-row-action">
+              <td>
+                <a href="#contact" class="btn btn-ghost"><span>Request Custom Build</span></a>
+              </td>
+              <td>
+                <a href="#contact" class="btn btn-ghost"><span>Book Audit</span></a>
+              </td>
+              <td>
+                <a href="#contact" class="btn btn-solid"><span>Start Core Plan</span></a>
+              </td>
+              <td>
+                <a href="#contact" class="btn btn-ghost"><span>Request Custom Quote</span></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <div class="guarantee-strip reveal">
-        <div class="guarantee-heading">Every reka.ai agent deployment includes:</div>
-        <div class="guarantee-items">
-          <div class="guarantee-item">
-            <svg viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clip-rule="evenodd" />
-            </svg>
-            <span>Human-approval checkpoints</span>
-          </div>
-          <div class="guarantee-item">
-            <svg viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clip-rule="evenodd" />
-            </svg>
-            <span>Full audit activity logs</span>
-          </div>
-          <div class="guarantee-item">
-            <svg viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clip-rule="evenodd" />
-            </svg>
-            <span>Automated regression test suite</span>
-          </div>
-        </div>
+        <a href="../assets/projects/Catalog.png" download="Catalog.png" class="btn btn-solid guarantee-download-btn">
+          <span>Download Catalog</span>
+        </a>
       </div>
     </div>
   </section>
@@ -369,14 +324,35 @@
           </div>
 
           <div class="form-group">
-            <label for="contact-message">What task would you like to automate? *</label>
-            <textarea id="contact-message" name="message" class="form-textarea"
-              placeholder="Describe the manual workflow, repetitive task, or bottlenecks your team faces daily..."
-              required aria-describedby="contact-message-msg"></textarea>
+            <label for="contact-message">Which plan are you interested in? *</label>
+            <select id="contact-message" name="message" class="form-select" required
+              aria-describedby="contact-message-msg">
+              <option value="" disabled selected>Select a plan...</option>
+              <option value="Custom Coding">Custom Coding</option>
+              <option value="SME Plan Agents">SME Plan Agents</option>
+              <option value="Starter AI Agent System">Starter AI Agent System</option>
+              <option value="Custom Agent System">Custom Agent System</option>
+            </select>
             <span id="contact-message-msg" class="field-msg"
-              data-support="Briefly describe the repetitive task or bottleneck"
-              data-error="Please describe the workflow you want to automate">Briefly describe the repetitive task or
-              bottleneck</span>
+              data-support="Choose the plan that best fits your needs"
+              data-error="Please select a plan">Choose the plan that best fits your needs</span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-date">Meeting Date *</label>
+              <input type="date" id="contact-date" name="meeting_date" class="form-input" required
+                aria-describedby="contact-date-msg" />
+              <span id="contact-date-msg" class="field-msg" data-support="Pick a date for our discovery call"
+                data-error="Please select a meeting date">Pick a date for our discovery call</span>
+            </div>
+            <div class="form-group">
+              <label for="contact-time">Meeting Time *</label>
+              <input type="time" id="contact-time" name="meeting_time" class="form-input" required
+                aria-describedby="contact-time-msg" />
+              <span id="contact-time-msg" class="field-msg" data-support="Preferred time (MYT / GMT+8)"
+                data-error="Please select a meeting time">Preferred time (MYT / GMT+8)</span>
+            </div>
           </div>
 
           <div class="form-submit-row">
@@ -403,10 +379,10 @@
       </div>
 
       <nav class="footer-links" aria-label="Footer Navigation">
-        <a href="#about" class="footer-link">About</a>
+        <a href="about.html" class="footer-link">About</a>
         <a href="#experience" class="footer-link">Experience</a>
         <a href="#services" class="footer-link">Services</a>
-        <a href="#contact" class="footer-link">Contact</a>
+        <a href="contact.html" class="footer-link">Contact</a>
       </nav>
     </div>
 
@@ -417,7 +393,7 @@
   </footer>
   </div>
 
-  <script src="js/main.js" defer></script>
+  <script src="../js/main.js" defer></script>
 </body>
 
 </html>
