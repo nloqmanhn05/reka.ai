@@ -531,6 +531,16 @@ em {
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 
+.section-eyebrow {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a0a0a0;
+  margin-bottom: 14px;
+}
+
 .section-title {
   font-size: clamp(32px, 4.2vw, 46px);
   font-weight: 500;
@@ -624,8 +634,8 @@ em {
 .team-caption {
   padding: 20px 24px;
   font-style: italic;
-  font-family: "Instrument Serif", serif;
-  font-size: 18px;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
   line-height: 1.4;
   color: #c0c0c0;
   border-top: 1px solid rgba(255, 255, 255, 0.04);
@@ -999,6 +1009,10 @@ em {
 .form-note {
   font-size: 12.5px;
   color: #8a8a8a;
+}
+
+.form-submit-row .btn {
+  margin-left: auto;
 }
 
 .form-status {
